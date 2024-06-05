@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>INSTANT - Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Пример на bootstrap 4: Ничего, кроме основ: скомпилированный CSS и JavaScript. Версия v4.0.0">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Базовый шаблон | Starter Template for Bootstrap (BS 4.0)</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">АВТОСАЛОН</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Главная страница</a></li>
+            <li><a href="about.html">О автосервисе</a></li>
+            <li><a href="work.html">Каталог</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+	<div id="headerwrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">	
+					<h1>Автосалон</h1>
+				</div>
+			</div><! --/row -->
+	    </div> <!-- /container -->
+	</div><! --/headerwrap -->
+    <form>
+  <input type="text" placeholder="Искать здесь...">
+  <button class="button-find" type="submit"></button>
+</form>
+
+<button class="button-registr" onclick="document.getElementById('id01').style.display='block'">Зарегистрироваться</button>
+
+<!-- Модальный (содержит форму регистрации) -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Закрыть модальный">times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Форма регистрации</h1>
+      <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Введите вашу почту" name="email" required>
+
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" placeholder="Введите пароль" name="psw" required>
+
+      <label for="psw-repeat"><b>Повторить пароль</b></label>
+      <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Запомнить меня
+      </label>
+
+      <p>Создавая учетную запись, вы соглашаетесь с нашим <a href="#" style="color:dodgerblue">Условия и конфиденциальность</a>.</p>
+
+      <div class="clearfix">
+        <button type="button"   onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Отменить</button>
+        <button type="submit" class="button-registr">Регистрация</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+	
+	<section id="works"></section>
+	<div class="container">
+			
+				<div class="slider">
+      <img src="assets/img/1 машина.jpg" alt="1 машина">
+    <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+    <button class="next-button" aria-label="Посмотреть следующий слайд">&gt</button>
+  </div>
+		
+			</div>
+		</div><! --/row -->
+	</div><! --/container -->
+      <div id="social">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-2">
+          <a href="#"><i class="fa fa-dribbble"></i></a>
+        </div>
+        <div class="col-lg-2">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div class="col-lg-2">
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="col-lg-2">
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <div class="col-lg-2">
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="col-lg-2">
+          <a href="#"><i class="fa fa-tumblr"></i></a>
+        </div>
+      
+      </div><! --/row -->
+    </div><! --/container -->
+  </div><! --/social -->
+	
+<!-- Модальный (содержит форму регистрации) -->
+
+
+
+<div id="footerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-4">
+					<p><b>ООО «Лига»
+Юридический адрес:
+109316, г. Москва, вн. тер. г. Муниципальный Округ Текстильщики, пр-кт Волгоградский, д. 47
+ИНН 9722047244
+КПП 772201001
+ОГРН 1237700371611</b></p>
+				</div>
+			
+				<div class="col-lg-4">
+					<p>Лицензионное соглашение</p>
+				</div>
+				<div class="col-lg-4">
+					<p>Политика конфиденциальности</p>
+				</div>
+			
+			</div>
+		
+		</div>
+	</div><! --/footerwrap -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/script.js"></script>
+  </body>
+</html>
